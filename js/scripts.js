@@ -1,4 +1,5 @@
 var wysokoscChoinki = prompt('Podaj ilosc wierszy: ');
+drawTree(wysokoscChoinki);
 function drawTree(wysokoscChoinki) {
 	for (var i = 0; i < wysokoscChoinki; i++) {
 		var star = '';
